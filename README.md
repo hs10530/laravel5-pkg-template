@@ -4,14 +4,10 @@
 
 Clone this repo with minimal history:
 
-```sh
-git clone --depth 1 git@github.com:cviebrock/laravel5-package-template.git
-```
-
 Rename the directory and re-init it as your own package:
 
 ```sh
-mv laravel5-package-template my-package
+mv laravel5-pkg-template my-package
 cd my-package
 rm -rf .git
 git init
